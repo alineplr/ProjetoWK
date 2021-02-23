@@ -1,0 +1,50 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Principal'
+  ClientHeight = 325
+  ClientWidth = 657
+  Color = 8766873
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 657
+    Height = 73
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 2643509
+    ParentBackground = False
+    TabOrder = 0
+    object Pedido: TButton
+      Left = 16
+      Top = 10
+      Width = 105
+      Height = 57
+      Caption = 'Pedido'
+      TabOrder = 0
+      OnClick = PedidoClick
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 73
+    Width = 657
+    Height = 252
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitLeft = -447
+    ExplicitTop = -283
+    ExplicitWidth = 1104
+    ExplicitHeight = 608
+  end
+end
